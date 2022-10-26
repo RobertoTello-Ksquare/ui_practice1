@@ -12,11 +12,13 @@ class Practice4 extends StatelessWidget {
               child: Container(
                 height: 50,
                 width: 150,
+                
                   child: ElevatedButton(
                   child: const Text("Click Me"), 
                   onPressed: (){},
                   style:
                    ElevatedButton.styleFrom(
+                     shape: RoundedRectangleBorder(borderRadius:BorderRadius.circular(0)),
                     textStyle:const TextStyle(fontSize:20),
                     backgroundColor: (Color.fromARGB(255, 16, 26, 51)),
           ),

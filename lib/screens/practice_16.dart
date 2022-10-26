@@ -51,7 +51,7 @@ class Practice16 extends StatelessWidget {
               ],),
             ),
             Expanded(
-              child: Image.asset("images/nebula.png"),
+              child: Image.asset("images/photo.jpg"),
             ),
             Container(
               padding: EdgeInsets.all(12.0),

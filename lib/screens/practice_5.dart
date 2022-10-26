@@ -14,7 +14,12 @@ class Practice5 extends StatelessWidget {
                 width: 150,
                   child: TextButton(
                   child: const Text("Click Me"),
-                  onPressed: (){},),
+                  onPressed: (){},
+                   style:
+                   TextButton.styleFrom(
+                     shape: RoundedRectangleBorder(borderRadius:BorderRadius.circular(0)),
+                    textStyle:const TextStyle(fontSize:20),),)
+                  
             ),
         ),
     );
