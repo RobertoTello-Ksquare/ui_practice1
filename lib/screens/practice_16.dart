@@ -8,6 +8,7 @@ class Practice16 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      
       backgroundColor:Colors.grey,
       body: Center(
         child: Container(
@@ -19,14 +20,18 @@ class Practice16 extends StatelessWidget {
               child: Row(
                 children: [
                 Container(
-                  padding: EdgeInsets.all(8.0),
-                  height: 40,
-                  width: 40,
-                  child: Image.asset("images/logo.png"),
-                ),
-                SizedBox(
-                  width: 16,
-                ),
+                 padding: EdgeInsets.all(10.0),
+                  height: 60,
+                  width: 60,
+                   child:Container(
+            decoration: const BoxDecoration(
+               borderRadius: BorderRadius.all(Radius.circular(80)),
+               color: Color(0xff222e3e)),
+               child: ClipOval(child: SizedBox.fromSize(
+                size: Size.fromRadius(80),
+                child: Image.asset("images/logo.png"),
+               ),),
+            ),),
                 Expanded(
                   child: Container(
                     child: Column(

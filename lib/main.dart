@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:ui_practice/screens/practice_1.dart';
 import 'package:ui_practice/screens/practice_10.dart';
+import 'package:ui_practice/screens/practice_11.dart';
+import 'package:ui_practice/screens/practice_12.dart';
+import 'package:ui_practice/screens/practice_13.dart';
 import 'package:ui_practice/screens/practice_16.dart';
 import 'package:ui_practice/screens/practice_2.dart';
 import 'package:ui_practice/screens/practice_3.dart';
@@ -28,7 +31,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Practice16(),
+      home: Practice13(),
     );
   }
 }
