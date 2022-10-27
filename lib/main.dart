@@ -9,6 +9,7 @@ import 'package:ui_practice/screens/practice_15.dart';
 import 'package:ui_practice/screens/practice_16.dart';
 import 'package:ui_practice/screens/practice_17.dart';
 import 'package:ui_practice/screens/practice_18.dart';
+import 'package:ui_practice/screens/practice_19.dart';
 import 'package:ui_practice/screens/practice_2.dart';
 import 'package:ui_practice/screens/practice_20.dart';
 import 'package:ui_practice/screens/practice_21.dart';
@@ -39,7 +40,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Practice23(),
+      home: Practice19(),
     );
   }
 }
