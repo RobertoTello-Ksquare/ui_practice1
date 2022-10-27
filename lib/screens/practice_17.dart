@@ -24,6 +24,10 @@ class Practice17 extends StatelessWidget {
                 width: double.infinity,
                 child: Image.asset("images/food.jpg",
                 fit: BoxFit.cover,),
+                
+              ),Positioned(
+                right: 10,
+                  child: Icon(Icons.favorite_outline_outlined, color: Colors.black,),
               ),
               Align(
                 alignment: Alignment.bottomCenter,

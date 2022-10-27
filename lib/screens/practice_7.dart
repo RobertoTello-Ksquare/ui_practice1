@@ -9,7 +9,7 @@ class Practice7 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Icon(Icons.favorite_outline_outlined),),
+        child: Icon(Icons.favorite_outline_outlined,size: 20,),),
     );
   }
 }

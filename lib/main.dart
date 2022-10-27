@@ -10,6 +10,10 @@ import 'package:ui_practice/screens/practice_16.dart';
 import 'package:ui_practice/screens/practice_17.dart';
 import 'package:ui_practice/screens/practice_18.dart';
 import 'package:ui_practice/screens/practice_2.dart';
+import 'package:ui_practice/screens/practice_20.dart';
+import 'package:ui_practice/screens/practice_21.dart';
+import 'package:ui_practice/screens/practice_22.dart';
+import 'package:ui_practice/screens/practice_23.dart';
 import 'package:ui_practice/screens/practice_3.dart';
 import 'package:ui_practice/screens/practice_4.dart';
 import 'package:ui_practice/screens/practice_5.dart';
@@ -35,7 +39,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Practice17(),
+      home: Practice21(),
     );
   }
 }
