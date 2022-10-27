@@ -70,7 +70,7 @@ class _Practice19State extends State<Practice19> {
             SizedBox(
                child: Column(
                      children: [
-                      Padding(padding: EdgeInsets.only(top: 10.0,bottom: 50.0)),
+                      Padding(padding: EdgeInsets.only(top: 10.0,bottom: 10.0)),
                        Text("Gender",
                   style: TextStyle(fontSize: 12,),textAlign: TextAlign.left,),
                   SizedBox(
@@ -108,7 +108,7 @@ class _Practice19State extends State<Practice19> {
                 ),  
 
 
-            SizedBox(height: 8,), 
+            SizedBox(height: 40,), 
             Row(
               children: [
                 
