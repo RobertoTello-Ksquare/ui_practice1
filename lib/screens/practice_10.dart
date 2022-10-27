@@ -50,9 +50,8 @@ class Practice10 extends StatelessWidget {
              Column(crossAxisAlignment: CrossAxisAlignment.center,
                children: 
                  [Text("By signing up you're accepting our tems and conditions",
-                 style: TextStyle(fontSize: 15),textAlign: TextAlign.center,
-                 ),
-               ],
-             ),
-             ),
-             ],f
+                 style: TextStyle(fontSize: 15),textAlign: TextAlign.center,),],
+                ),
+                ),
+                
+        ],),),);}}
